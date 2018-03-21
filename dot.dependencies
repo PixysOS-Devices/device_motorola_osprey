@@ -5,7 +5,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "ishubhamsingh/android_kernel_motorola_msm8916",
+    "repository":  "Subinsmani/android_kernel_motorola_msm8916",
     "target_path": "kernel/motorola/msm8916",
     "branch":      "8.1.x"
   },
@@ -23,7 +23,7 @@
     "remote":      "github",
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch":      "lineage-15.0"
+    "branch":      "lineage-15.1"
   },
   {
     "remote":      "github",

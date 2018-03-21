@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
 TARGET_ARCH=arm
 
 # Inherit common stuff
-    $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+#    $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Sensors
 PRODUCT_PACKAGES += \
