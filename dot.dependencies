@@ -31,4 +31,10 @@
     "target_path": "external/sony/boringssl-compat",
     "branch":      "lineage-15.0"
   }
+  {
+    "remote":      "github",
+    "repository":  "Subinsmani/prebuilts_gcc_linux-x86_arm_arm-eabi-7.2",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-7.2",
+    "branch":      "master"
+  }
 ]
