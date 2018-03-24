@@ -1,1 +1,1 @@
-add_lunch_combo dot_osprey-userdebug
+add_lunch_combo rr_osprey-userdebug
