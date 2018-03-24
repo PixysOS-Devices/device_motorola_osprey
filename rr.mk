@@ -22,11 +22,11 @@ TARGET_BOOT_ANIMATION_RES := 720
 #$(call inherit-product, build/target/product/go_defaults.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/rr/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := dot_osprey
+PRODUCT_NAME := rr_osprey
 PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
