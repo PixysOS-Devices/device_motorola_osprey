@@ -15,8 +15,10 @@
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
-#Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 720
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
 
 # Inherit common Android Go configurations
 #$(call inherit-product, build/target/product/go_defaults.mk)
