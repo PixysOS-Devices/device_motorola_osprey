@@ -24,16 +24,12 @@ TARGET_SCREEN_HEIGHT := 960
 #$(call inherit-product, build/target/product/go_defaults.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/rr/config/common.mk)
+$(call inherit-product, vendor/bootleggers/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := rr_osprey
+PRODUCT_NAME := bootleg_osprey
 PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey
-
-# Vendor security patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2018-04-01
