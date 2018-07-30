@@ -4,10 +4,8 @@
     "target_path": "device/motorola/msm8916-common"
   },
   {
-    "remote":      "github",
-    "repository":  "Subinsmani/android_kernel_motorola_msm8916",
-    "target_path": "kernel/motorola/msm8916",
-    "branch":      "8.1.x"
+    "repository":  "android_kernel_motorola_msm8916",
+    "target_path": "kernel/motorola/msm8916"
   },
   {
     "repository":  "proprietary_vendor_motorola",
@@ -29,12 +27,12 @@
     "remote":      "github",
     "repository":  "LineageOS/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
-    "branch":      "lineage-15.0"
+    "branch":      "lineage-15.1"
   },
   {
     "remote":      "github",
-    "repository":  "Subinsmani/prebuilts_gcc_linux-x86_arm_arm-eabi-7.2",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-7.2",
+    "repository":  "dev-harsh1998/GCC_BUILDS",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-7.3",
     "branch":      "master"
   }
 ]

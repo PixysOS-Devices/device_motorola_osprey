@@ -1,4 +1,3 @@
-add_lunch_combo bootleg_osprey-eng
-add_lunch_combo Bootleg_osprey-user
-add_lunch_combo Bootleg_osprey-userdebug
-
+add_lunch_combo pixys_osprey-eng
+add_lunch_combo pixys_osprey-user
+add_lunch_combo pixys_osprey-userdebug
