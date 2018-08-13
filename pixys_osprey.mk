@@ -16,19 +16,17 @@
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 
 # Boot animation
-TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_WIDTH := 540
-TARGET_SCREEN_HEIGHT := 960
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit common Android Go configurations
 #$(call inherit-product, build/target/product/go_defaults.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/bootleggers/config/common.mk)
+$(call inherit-product, vendor/pixys/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
-PRODUCT_NAME := bootleg_osprey
+PRODUCT_NAME := pixys_osprey
 PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola

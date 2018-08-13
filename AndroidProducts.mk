@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg.mk
+    $(LOCAL_DIR)/pixys_osprey.mk
